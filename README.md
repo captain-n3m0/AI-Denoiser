@@ -31,20 +31,25 @@ python main.py
 ```
 
 ## 🎛️ How to Use
-**Start the program by running python main.py.
-**Adjust DSP Parameters:
-**Cutoff Frequency: Controls how much noise is removed.
-**AI Noise Reduction Strength: Adjust the impact of AI denoising.
-**Press "Start Filtering" to begin real-time noise filtering.
-**Visualize the Audio using:
-**Waveform Graph (Top) – Shows the audio signal in real time.
-**Equalizer (FFT Spectrum) (Bottom) – Displays frequency content.
-**Press "Start Recording" to begin recording filtered audio.
-**Press "Save Recording" to save it as a .wav file.
-**Press "Stop Filtering" to end processing.
+1. **Start the program** by running:
+   ```bash
+   python main.py
+   ```
+   
+2. **Adjust DSP Parameters:**
+**Cutoff Frequency: Controls how much noise is removed.**
+**AI Noise Reduction Strength: Adjust the impact of AI denoising.**
+**Press "Start Filtering" to begin real-time noise filtering.**
+
+3. **Visualize the Audio using:
+**Waveform Graph (Top) – Shows the audio signal in real time.**
+**Equalizer (FFT Spectrum) (Bottom) – Displays frequency content.**
+**Press "Start Recording" to begin recording filtered audio.**
+**Press "Save Recording" to save it as a .wav file.**
+**Press "Stop Filtering" to end processing.**
 
 ## 🔧 Customization
-**Use Your Own AI Model – Replace models/pretrained_model.pth with your trained model.
-**Adjust DSP Algorithms – Modify dsp/noise_filter.py to change noise removal techniques.
-**Enhance Visualization – Modify gui.py to add more UI elements.
+**Use Your Own AI Model – Replace models/pretrained_model.pth with your trained model.**
+**Adjust DSP Algorithms – Modify dsp/noise_filter.py to change noise removal techniques.**
+**Enhance Visualization – Modify gui.py to add more UI elements.**
 
