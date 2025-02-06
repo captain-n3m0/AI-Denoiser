@@ -41,7 +41,7 @@ python main.py
 **AI Noise Reduction Strength: Adjust the impact of AI denoising.**
 **Press "Start Filtering" to begin real-time noise filtering.**
 
-3. **Visualize the Audio using:
+3. **Visualize the Audio using:**
 **Waveform Graph (Top) – Shows the audio signal in real time.**
 **Equalizer (FFT Spectrum) (Bottom) – Displays frequency content.**
 **Press "Start Recording" to begin recording filtered audio.**
